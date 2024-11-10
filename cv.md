@@ -40,3 +40,10 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
+
+## Certifications
+
+- **Frontend Development** by [freeCodeCamp](https://freecodecamp.org) - July 2023
+- **Backend Development with Go** by [Coursera](https://coursera.org) - May 2023
+- **HTML & CSS for Beginners** by [Codecademy](https://codecademy.com) - January 2023
+
