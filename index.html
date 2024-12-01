@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alem Bakhytzhanova - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Alem Bakhytzhanova</h1>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:florangorr@gmail.com">florangorr@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/alembakhytzhanova" target="_blank">alembakhytzhanova</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/alembakhytzhanova" target="_blank">linkedin.com/in/alembakhytzhanova</a></li>
+            </ul>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>
+                Aspiring Junior Developer with a passion for continuous learning and skill-building. Eager to contribute 
+                to a team where I can leverage my knowledge in backend development and problem-solving skills, while 
+                continuously improving and expanding my skill set. My goal is to grow into a strong developer capable of 
+                delivering efficient, high-quality code.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Go, SQL, HTML, CSS</li>
+                <li><strong>Frameworks:</strong> Basic REST API development</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Tools:</strong> Docker, Visual Studio Code, PostgreSQL, SQLite</li>
+                <li><strong>Methodologies:</strong> Agile, Scrum</li>
+            </ul>
+        </section>
+
+        <section class="code-examples">
+            <h2>Code Examples</h2>
+            <h3>Latest Code Example</h3>
+            <pre><code>
+// Problem: Find indices of the two numbers that add up to a specific target.
+func twoSum(nums []int, target int) []int {
+    indices := make(map[int]int)
+    for i, num := range nums {
+        complement := target - num
+        if index, found := indices[complement]; found {
+            return []int{index, i}
+        }
+        indices[num] = i
+    }
+    return nil
+}
+            </code></pre>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>Frontend Development</strong> by <a href="https://freecodecamp.org" target="_blank">freeCodeCamp</a> - July 2023</li>
+                <li><strong>Backend Development with Go</strong> by <a href="https://coursera.org" target="_blank">Coursera</a> - May 2023</li>
+                <li><strong>HTML & CSS for Beginners</strong> by <a href="https://codecademy.com" target="_blank">Codecademy</a> - January 2023</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Alem Bakhytzhanova</p>
+    </footer>
+</body>
+</html>
